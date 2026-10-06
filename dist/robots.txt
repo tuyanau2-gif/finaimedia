@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://fin-ai-media-project.tuyanau2.chatgpt.site/sitemap.xml
