@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#edf7fb">
+  <meta name="description" content="Блок Fin AI Media: новости финансов и российского фондового рынка, статьи о кредитах, инвестициях и финансовом мышлении простым языком.">
+  <meta property="og:title" content="Блок Fin AI Media — новости и статьи о деньгах">
+  <meta property="og:description" content="Новости, которые объясняют, что меняется для вашего кошелька, и статьи от Туяны Урбагаевой о деньгах без шума.">
+  <meta property="og:type" content="website">
+  <title>Блок Fin AI Media — новости и статьи о деньгах</title>
+  <link rel="icon" type="image/svg+xml" href="favicon-glass.svg">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="glass.css">
+</head>
+<body class="media-page">
+  <a class="skip-link" href="#main">Перейти к содержанию</a>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <div class="shell header-inner">
+      <a class="brand" href="index.html#top" aria-label="Fin AI Media — на главную">
+        <span class="brand-mark brand-mark-3d" aria-hidden="true"><img src="fin-ai-logo-3d-v2.webp" alt=""></span>
+        <span class="brand-name">FIN <i>AI</i> MEDIA</span>
+      </a>
+      <nav class="desktop-nav" aria-label="Основная навигация">
+        <a href="index.html#bots">AI-боты</a>
+        <a href="index.html#programs">Программы</a>
+        <a class="active" href="media.html">Блок</a>
+        <a href="index.html#about">Обо мне</a>
+        <a href="index.html#chooser">Подбор решения</a>
+      </nav>
+      <a class="button button-small header-cta" href="index.html#chooser">Найти своего бота</a>
+      <button class="menu-button" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span></button>
+    </div>
+    <nav class="mobile-menu" id="mobile-menu" aria-label="Мобильная навигация" hidden>
+      <a href="index.html#bots">AI-боты</a>
+      <a href="index.html#programs">Программы</a>
+      <a href="media.html">Блок</a>
+      <a href="index.html#about">Обо мне</a>
+      <a href="index.html#chooser">Подбор решения</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="media-hero">
+      <div class="shell media-hero-grid">
+        <div class="media-hero-copy reveal">
+          <span class="kicker light">БЛОК FIN AI MEDIA · ОБНОВЛЕНО 20 СЕНТЯБРЯ 2026</span>
+          <h1>Новости и статьи, после которых понятнее, что делать с деньгами</h1>
+          <p>Я собираю главное из официальных источников и перевожу с языка ставок, отчётности и законов на обычный человеческий язык. Без копирования новостей и без крика "срочно покупайте".</p>
+          <div class="media-hero-actions">
+            <a class="button button-gold" href="#news">Читать новости <span>↓</span></a>
+            <a class="text-link light-link" href="#articles">Перейти к статьям <span>↓</span></a>
+          </div>
+          <div class="media-proof"><span>10</span><p>новостей с выводом для кошелька</p><span>10</span><p>развёрнутых статей от Туяны</p></div>
+        </div>
+        <div class="media-hero-art reveal" aria-label="3D-иллюстрация финансового медиа">
+          <img src="news-rate.webp" alt="Абстрактный 3D-циферблат и финансовые графики" loading="eager">
+          <span class="media-float float-a">ФАКТЫ</span>
+          <span class="media-float float-b">КОНТЕКСТ</span>
+          <span class="media-float float-c">КОШЕЛЁК</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="media-toolbar" aria-label="Фильтр материалов">
+      <div class="shell media-toolbar-inner">
+        <div><span class="kicker">РЕДАКЦИЯ</span><h2>Выберите формат</h2></div>
+        <div class="media-filters" role="group" aria-label="Показать материалы">
+          <button class="media-filter is-active" type="button" data-filter="all">Всё</button>
+          <button class="media-filter" type="button" data-filter="news">Новости</button>
+          <button class="media-filter" type="button" data-filter="article">Статьи</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="media-section" id="news">
+      <div class="shell">
+        <div class="media-section-heading reveal">
+          <div><span class="kicker">01 · НОВОСТИ</span><h2>Что изменилось<br>и причём здесь ваш кошелёк</h2></div>
+          <p>Коротко фиксирую факт, затем объясняю, что он меняет в бытовых решениях. Даты и цифры проверены по первоисточникам.</p>
+        </div>
+        <div class="media-grid" id="news-grid"></div>
+      </div>
+    </section>
+
+    <section class="media-section articles-section" id="articles">
+      <div class="shell">
+        <div class="media-section-heading reveal">
+          <div><span class="kicker">02 · СТАТЬИ</span><h2>Разбираем деньги<br>как люди, а не учебник</h2></div>
+          <p>Это не инвестиционные сигналы. Это тексты, которые помогают сформулировать вопрос, увидеть риск и выбрать следующий спокойный шаг.</p>
+        </div>
+        <div class="media-grid article-media-grid" id="articles-grid"></div>
+      </div>
+    </section>
+
+    <section class="media-sources-section">
+      <div class="shell media-sources-card">
+        <div><span class="kicker">КАК Я ПРОВЕРЯЮ</span><h2>Сначала источник,<br>потом мой человеческий вывод</h2></div>
+        <p>Для новостей я использую Банк России, ФНС, Минтруд и Московскую биржу. Для больших материалов о мотивации и финансовом мышлении добавляю научные публикации и методики, чтобы отделять личное мнение от того, что действительно проверяли исследователи.</p>
+        <a class="button button-primary" href="https://t.me/TuyanaU" target="_blank" rel="noopener noreferrer">Предложить тему <span>↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="shell site-footer media-footer">
+    <div class="footer-main">
+      <div class="footer-brand-block"><a class="brand footer-brand" href="index.html#top"><span class="brand-mark brand-mark-3d" aria-hidden="true"><img src="fin-ai-logo-3d-v2.webp" alt=""></span><span class="brand-name">FIN <i>AI</i> MEDIA</span></a><p>Технологии и обучение, которые помогают принимать финансовые и карьерные решения увереннее.</p></div>
+      <div class="footer-legal"><span>АВТОР ПРОЕКТА</span><strong>Урбагаева Туяна Амгалановна</strong><p>ИНН 170108193980</p></div>
+      <div class="footer-socials"><span>СОЦИАЛЬНЫЕ СЕТИ</span><div class="social-links"><a href="https://t.me/tuyanafin" target="_blank" rel="noopener noreferrer"><b>Telegram</b><i>↗</i></a><a href="https://www.instagram.com/tuyanafin/" target="_blank" rel="noopener noreferrer"><b>Instagram</b><i>↗</i></a><a href="https://vk.com/tuyanafin" target="_blank" rel="noopener noreferrer"><b>ВКонтакте</b><i>↗</i></a><a href="https://max.ru/channel_tuyanafin" target="_blank" rel="noopener noreferrer"><b>MAX</b><i>↗</i></a><a href="https://tuyanafin.tilda.ws/tuyanafin" target="_blank" rel="noopener noreferrer"><b>Личный сайт</b><i>↗</i></a></div></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 Fin AI Media</span><div class="footer-policy-row"><p>Информация на сайте носит образовательный характер и не является индивидуальной инвестиционной рекомендацией.</p><a class="privacy-link" href="index.html#privacy-dialog">Политика конфиденциальности</a></div></div>
+  </footer>
+  <script src="media.js"></script>
+</body>
+</html>

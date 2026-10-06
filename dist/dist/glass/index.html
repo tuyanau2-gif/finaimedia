@@ -1,0 +1,878 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#edf7fb">
+  <meta name="description" content="Fin AI Media — AI-помощники, марафон по личным финансам, курс по инвестициям и понятный блог о деньгах и карьере.">
+  <meta property="og:title" content="Fin AI Media — деньги, инвестиции и карьера с поддержкой AI">
+  <meta property="og:description" content="Практические программы и AI-помощники, которые превращают сложные финансовые решения в понятные шаги.">
+  <meta property="og:type" content="website">
+  <title>Fin AI Media — AI-помощники и обучение финансам</title>
+  <link rel="icon" type="image/svg+xml" href="favicon-glass.svg">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="glass.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержанию</a>
+
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <div class="shell header-inner">
+      <a class="brand" href="#top" aria-label="Fin AI Media — на главную">
+        <span class="brand-mark brand-mark-3d" aria-hidden="true">
+          <img src="fin-ai-logo-3d-v2.webp" alt="">
+        </span>
+        <span class="brand-name">FIN <i>AI</i> MEDIA</span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Основная навигация">
+        <a href="#bots">AI-боты</a>
+        <a href="#programs">Программы</a>
+        <a href="media.html">Блог</a>
+        <a href="#about">Обо мне</a>
+        <a href="#chooser">Подбор решения</a>
+      </nav>
+
+      <details class="bots-burger">
+        <summary aria-label="Открыть меню AI-помощников"><span></span><span></span><span></span><b>AI-помощники</b></summary>
+        <div class="bots-burger-panel">
+          <a href="junior.html"><i>☆</i><span><strong>FinAI Junior</strong><small>Деньги через истории и игру</small></span><b>→</b></a>
+          <a href="balance.html"><i>₽</i><span><strong>FinAI Balance</strong><small>Бюджет и финансовые цели</small></span><b>→</b></a>
+          <a href="invest.html"><i>↗</i><span><strong>FinAI Invest</strong><small>Акции, показатели и риски</small></span><b>→</b></a>
+          <a href="mentor.html"><i>◇</i><span><strong>FinAI Mentor</strong><small>Карьера и развитие</small></span><b>→</b></a>
+          <a href="business.html"><i>▥</i><span><strong>FinAI Business</strong><small>Аналитика малого бизнеса</small></span><b>→</b></a>
+        </div>
+      </details>
+
+      <a class="button button-small header-cta" href="#chooser">Найти своего бота</a>
+      <button class="menu-button" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span>
+      </button>
+    </div>
+
+    <nav class="mobile-menu" id="mobile-menu" aria-label="Мобильная навигация" hidden>
+      <a href="#bots">AI-боты</a>
+      <a href="#programs">Программы</a>
+      <a href="junior.html">FinAI Junior</a>
+      <a href="media.html">Блог</a>
+      <a href="#about">Обо мне</a>
+      <a href="#chooser">Подбор решения</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero hero-premium" aria-labelledby="hero-title">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="pulse"></span> AI ДЛЯ ДЕНЕГ, ЗНАНИЙ И РОСТА</div>
+        <h1 id="hero-title">Сложные финансы - <span>простыми словами и с технологиями AI</span></h1>
+        <p class="hero-lead">Добро пожаловать в Fin AI Media. Место, где разбираемся в финансах и инвестициях без сложных терминов. Учимся сами и учим детей обращаться с деньгами - AI-помощники делают всё это проще и интереснее.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#chooser">
+            Подобрать AI-помощника
+            <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h12m-5-5 5 5-5 5"/></svg>
+          </a>
+          <button class="text-link lead-open-button" type="button" data-open-lead>Получить бесплатный чек-лист <span>↓</span></button>
+        </div>
+        <div class="trust-row" aria-label="Преимущества">
+          <div><strong>с 2019</strong><span>опыт инвестирования</span></div>
+          <div><strong>2 рынка</strong><span>фондовый и недвижимость</span></div>
+          <div><strong>AI + опыт</strong><span>анализ без магии</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" aria-label="Искусственный интеллект анализирует финансовые данные">
+        <div class="hero-signal signal-one"><i>✦</i><span><b>AI-анализ</b>Факты вместо шума</span></div>
+        <div class="hero-signal signal-two"><i>↗</i><span><b>Финансы</b>Цифры простым языком</span></div>
+        <div class="hero-signal signal-three"><i>◎</i><span><b>Обучение</b>Знания под вашу цель</span></div>
+      </div>
+    </section>
+
+    <section class="start-section" id="start" aria-labelledby="start-title">
+      <div class="shell">
+        <div class="start-heading reveal"><span class="kicker">С ЧЕГО НАЧАТЬ</span><h2 id="start-title">Выберите то, что волнует вас сейчас</h2><p>Не нужно изучать всё сразу. Начните с одной понятной задачи.</p></div>
+        <div class="start-grid">
+          <a class="start-card reveal" href="#chooser"><span class="start-number">01</span><i>₽</i><h3>Навести порядок в семейном бюджете</h3><p>Понять, куда уходят деньги, найти резерв и начать копить без жестких ограничений.</p><strong>Подобрать решение <b>→</b></strong></a>
+          <a class="start-card reveal" href="#chooser"><span class="start-number">02</span><i>↗</i><h3>Начать инвестировать спокойно</h3><p>Разобраться в инструментах и рисках без сигналов, обещаний и сложных терминов.</p><strong>Подобрать решение <b>→</b></strong></a>
+          <a class="start-card reveal" href="#bot-junior"><span class="start-number">03</span><i>◎</i><h3>Научить ребенка обращаться с деньгами</h3><p>Объяснять финансовые привычки через сказки, игры и семейные задания.</p><strong>Посмотреть помощника <b>→</b></strong></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="approach-strip" aria-label="Принципы Fin AI Media">
+      <div class="shell approach-grid">
+        <div class="reveal"><span>01</span><strong>Не сигналы</strong><p>а понимание логики решения</p></div>
+        <div class="reveal"><span>02</span><strong>Не обещания</strong><p>а анализ данных и рисков</p></div>
+        <div class="reveal"><span>03</span><strong>Не сложные термины</strong><p>а ясное объяснение для новичка</p></div>
+        <div class="reveal"><span>04</span><strong>Не шаблонный совет</strong><p>а обучение под вашу задачу</p></div>
+      </div>
+    </section>
+
+    <section class="demo-section" aria-labelledby="demo-title">
+      <div class="shell demo-shell">
+        <div class="demo-copy reveal"><span class="kicker">КАК ЭТО РАБОТАЕТ</span><h2 id="demo-title">Задайте обычный вопрос.<br>Получите понятный план.</h2><p>AI-помощник не оценивает и не читает лекции. Он помогает разложить ситуацию по шагам и понять, с чего начать.</p><a class="button button-primary" href="#chooser">Найти своего помощника <span>↗</span></a></div>
+        <div class="chat-demo reveal" aria-label="Пример диалога с AI-помощником">
+          <div class="chat-demo-top"><span class="chat-avatar">AI</span><div><strong>FinAI Balance</strong><small><i></i> готов помочь</small></div></div>
+          <div class="chat-message chat-user">У нас семейный доход 150 000 ₽, но к концу месяца ничего не остается. С чего начать?</div>
+          <div class="chat-message chat-ai"><span>✦</span><p>Начнем не с экономии, а с ясной картины. Я помогу разделить расходы на обязательные, переменные и незаметные, а затем найду сумму, которую реально направлять на вашу цель.</p><ul><li>Соберем расходы за месяц</li><li>Найдем 2–3 точки утечки</li><li>Составим план без жестких запретов</li></ul></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="directions-section" id="directions" aria-labelledby="directions-title">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <div>
+            <span class="kicker">ЭКОСИСТЕМА FIN AI MEDIA</span>
+            <h2 id="directions-title">Четыре направления.<br>Одна цель — ваш рост.</h2>
+          </div>
+          <p>Мы соединяем финансовую грамотность, технологии и человеческий подход, чтобы сложные решения становились ясными.</p>
+        </div>
+
+        <div class="ai-system-showcase reveal">
+          <img src="ai-system-3d.webp" alt="3D-система Fin AI Media: аналитика, обучение, документы и финансовая грамотность" loading="lazy">
+          <div class="ai-system-caption">
+            <span>ЕДИНАЯ AI-ЭКОСИСТЕМА</span>
+            <strong>Анализирует данные.<br>Объясняет. Обучает.</strong>
+            <p>Каждый помощник решает свою задачу, но все они работают по одному принципу: технологии должны усиливать мышление человека, а не подменять его.</p>
+          </div>
+        </div>
+
+        <div class="direction-grid">
+          <article class="direction-card reveal">
+            <span class="direction-number">01</span>
+            <div class="direction-icon" aria-hidden="true">
+              <svg viewBox="0 0 32 32"><path d="M5 25h22M8 22v-7m6 7V9m6 13v-5m6 5V5"/></svg>
+            </div>
+            <h3>Личные финансы</h3>
+            <p>Бюджет, накопления и финансовые цели без чувства вины и скучных таблиц.</p>
+            <span class="direction-detail">Контроль · План · Уверенность</span>
+          </article>
+          <article class="direction-card featured reveal">
+            <span class="direction-number">02</span>
+            <div class="direction-icon" aria-hidden="true">
+              <svg viewBox="0 0 32 32"><path d="M5 24 12 17l5 4L27 9M21 9h6v6"/></svg>
+            </div>
+            <h3>Инвестиции</h3>
+            <p>Анализ компаний, понимание инструментов и рисков без сигналов и обещаний доходности.</p>
+            <span class="direction-detail">Отчётность · Логика · Риски</span>
+          </article>
+          <article class="direction-card reveal">
+            <span class="direction-number">03</span>
+            <div class="direction-icon" aria-hidden="true">
+              <svg viewBox="0 0 32 32"><path d="M16 27V15m0 0 6 5m-6-5-6 5M8 8h16v7H8z"/></svg>
+            </div>
+            <h3>Обучение и развитие</h3>
+            <p>Диагностика профессиональных пробелов и персональное обучение под выбранную цель.</p>
+            <span class="direction-detail">Навыки · Знания · Прогресс</span>
+          </article>
+          <article class="direction-card reveal">
+            <span class="direction-number">04</span>
+            <div class="direction-icon" aria-hidden="true">
+              <svg viewBox="0 0 32 32"><path d="M5 25h22M7 22V10h7v12m4 0V6h7v16M8 14h5m6-4h5"/></svg>
+            </div>
+            <h3>Бизнес и маркетинг</h3>
+            <p>Финансовые отчёты, маркетинговые показатели и договоры в одной понятной картине.</p>
+            <span class="direction-detail">Данные · Документы · Решения</span>
+          </article>
+        </div>
+
+        <div class="bots-block" id="bots">
+          <div class="catalog-heading reveal">
+            <div>
+              <span class="kicker">КАТАЛОГ AI-ПОМОЩНИКОВ</span>
+              <h2>Команда, которая работает на вас</h2>
+            </div>
+            <p>Выберите помощника сами или доверьте подбор умному сценарию.</p>
+          </div>
+
+          <div class="bot-grid">
+            <article class="bot-card reveal" id="bot-invest" data-bot="invest">
+              <div class="bot-head">
+                <span class="bot-icon"><img src="bot-invest-3d.webp" alt="" loading="lazy"></span>
+                <span class="status status-live">Флагман</span>
+              </div>
+              <h3>FinAI Invest</h3>
+              <span class="bot-role">AI-анализатор акций и обучающий помощник</span>
+              <p>Читает фундаментальные показатели компаний и объясняет новичку сильные стороны, риски и логику инвестиционной идеи.</p>
+              <ul>
+                <li>Анализ отчётности и ключевых коэффициентов</li>
+                <li>Объяснение, почему акция выглядит сильной или рискованной</li>
+                <li>Контекст российского рынка и инвестиционного горизонта</li>
+              </ul>
+              <a href="invest.html" class="card-link">Открыть страницу Invest <span>→</span></a>
+            </article>
+
+            <article class="bot-card reveal" id="bot-balance" data-bot="balance">
+              <div class="bot-head">
+                <span class="bot-icon"><img src="bot-balance-3d.webp" alt="" loading="lazy"></span>
+                <span class="status status-live">Флагман</span>
+              </div>
+              <h3>FinAI Balance</h3>
+              <span class="bot-role">Финансовый консультант</span>
+              <p>Находит финансовые дыры, помогает распределить доход и двигаться к целям без перегруза.</p>
+              <ul>
+                <li>Аудит доходов и расходов</li>
+                <li>План накоплений</li>
+                <li>Маршрут выхода из долгов</li>
+              </ul>
+              <a href="balance.html" class="card-link">Открыть страницу Balance <span>→</span></a>
+            </article>
+
+            <article class="bot-card reveal" id="bot-mentor" data-bot="mentor">
+              <div class="bot-head">
+                <span class="bot-icon"><img src="bot-mentor-3d.webp" alt="" loading="lazy"></span>
+                <span class="status status-live">Флагман</span>
+              </div>
+              <h3>FinAI Mentor</h3>
+              <span class="bot-role">Персональный AI-ментор развития</span>
+              <p>Понимает, какой профессией вы хотите овладеть, находит пробелы в знаниях и помогает последовательно их закрывать.</p>
+              <ul>
+                <li>Диагностика навыков через диалог</li>
+                <li>Короткие уроки и материалы под вашу цель</li>
+                <li>История прогресса и продолжение обучения</li>
+              </ul>
+              <a href="mentor.html" class="card-link">Открыть страницу Mentor <span>→</span></a>
+            </article>
+
+            <article class="bot-card compact reveal" id="bot-business" data-bot="business">
+              <div class="bot-head">
+                <span class="bot-icon"><img src="bot-business-3d.webp" alt="" loading="lazy"></span>
+                <span class="status">Концепт</span>
+              </div>
+              <h3>FinAI Business</h3>
+              <span class="bot-role">Финансы, маркетинг и документы бизнеса</span>
+              <p>Читает Excel- и PDF-отчёты, анализирует маркетинговые показатели и договоры с поставщиками, показывает потери и условия, требующие внимания.</p>
+              <a href="business.html" class="card-link">Открыть страницу Business <span>→</span></a>
+            </article>
+
+            <article class="bot-card compact reveal" id="bot-junior" data-bot="junior">
+              <div class="bot-head">
+                <span class="bot-icon"><img src="bot-junior-3d.webp" alt="" loading="lazy"></span>
+                <span class="status">Концепт</span>
+              </div>
+              <h3>FinAI Junior</h3>
+              <span class="bot-role">Игровое обучение финансовой грамотности</span>
+              <p>Объясняет деньги через истории, выборы и задания: учит планировать, копить и отличать желание от необходимости.</p>
+              <a href="junior.html" class="card-link">Открыть страницу Junior <span>→</span></a>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="lead-section" aria-labelledby="lead-title">
+      <div class="shell lead-card reveal">
+        <div class="lead-visual" aria-hidden="true"><span>7</span><strong>ошибок</strong><i>FINAIMEDIA</i></div>
+        <div class="lead-copy"><span class="kicker">БЕСПЛАТНЫЙ ЧЕК-ЛИСТ</span><h2 id="lead-title">7 финансовых ошибок, из-за которых семье не удается накопить</h2><p>Короткий чек-лист поможет увидеть слабые места в семейном бюджете и выбрать первый шаг без чувства вины.</p><div class="lead-actions"><button class="button button-primary" type="button" data-open-lead>Открыть чек-лист <span>↗</span></button><small>Без регистрации и сложных таблиц</small></div></div>
+      </div>
+    </section>
+
+    <section class="conversion-section" aria-labelledby="conversion-title">
+      <div class="shell">
+        <div class="conversion-heading reveal">
+          <span class="kicker">ОТ ВОПРОСА К ПОНЯТНОМУ ДЕЙСТВИЮ</span>
+          <h2 id="conversion-title">Не просто ответы.<br>Конкретный следующий шаг.</h2>
+          <p>Каждый помощник начинает с вашей ситуации, объясняет логику решения и помогает собрать реалистичный план.</p>
+        </div>
+
+        <div class="result-scenarios">
+          <article class="result-scenario reveal"><span>01</span><strong>Семейный бюджет</strong><h3>Найти свободные деньги</h3><p>Разделить расходы, увидеть незаметные утечки и определить сумму, которую можно направлять на цель каждый месяц.</p></article>
+          <article class="result-scenario reveal"><span>02</span><strong>Инвестиции</strong><h3>Проверить идею до покупки</h3><p>Разобрать бизнес компании, долг, прибыль и риски вместо решения на основе чужого сигнала.</p></article>
+          <article class="result-scenario reveal"><span>03</span><strong>Дети и деньги</strong><h3>Объяснить через историю</h3><p>Создать финансовую сказку или семейное задание под возраст ребёнка и ситуацию из реальной жизни.</p></article>
+        </div>
+
+        <div class="dialog-showcase reveal" aria-label="Примеры диалогов с AI-помощниками">
+          <div class="dialog-showcase-copy"><span class="kicker">ПОСМОТРИТЕ ДО СТАРТА</span><h3>Как отвечает FinAI</h3><p>Не выдаёт универсальный совет, а уточняет контекст и объясняет решение человеческим языком.</p></div>
+          <div class="mini-dialogs">
+            <article><span>Вы</span><p>После всех платежей остаётся около 18 000 ₽. Копить или быстрее закрывать кредит?</p></article>
+            <article class="mini-dialog-ai"><span>FinAI Balance</span><p>Сначала сравним ставку по кредиту, размер резерва и срок вашей цели. Так решение будет основано на цифрах, а не на общем правиле.</p></article>
+          </div>
+        </div>
+
+        <div class="pricing-heading reveal"><span class="kicker">ФОРМАТЫ ДОСТУПА</span><h2>Начните с комфортного уровня</h2><p>Можно сначала познакомиться с подходом, а затем выбрать поддержку под свою задачу.</p></div>
+        <div class="pricing-grid">
+          <article class="price-card reveal"><span>ЗНАКОМСТВО</span><h3>Бесплатно</h3><p>Подбор помощника, полезные материалы и тестовые сценарии.</p><ul><li>Тест-подборщик</li><li>Чек-листы</li><li>Статьи и новости</li></ul><a class="button button-primary" href="#chooser">Начать бесплатно</a></article>
+          <article class="price-card price-card-featured reveal"><span>ПЕРСОНАЛЬНЫЙ МАРШРУТ</span><h3>AI-помощник</h3><p>Доступ к выбранному помощнику и последовательная работа над одной задачей.</p><ul><li>Персональные вопросы</li><li>План действий</li><li>Понятные объяснения</li></ul><a class="button button-primary" href="https://t.me/TuyanaU" target="_blank" rel="noopener noreferrer">В лист ожидания</a></article>
+          <article class="price-card reveal"><span>ГЛУБОКИЙ РАЗБОР</span><h3>С Туяной</h3><p>Личная встреча для бюджета, финансовой цели, инвестиций или карьерного маршрута.</p><ul><li>Разбор ситуации</li><li>Приоритеты</li><li>Индивидуальный план</li></ul><a class="button button-primary" href="https://t.me/TuyanaU" target="_blank" rel="noopener noreferrer">Обсудить задачу</a></article>
+        </div>
+
+        <div class="lead-magnets reveal">
+          <div><span class="kicker">ПОЛЕЗНОЕ БЕЗ ПЕРЕГРУЗА</span><h2>Выберите материал под свою задачу</h2></div>
+          <div class="lead-magnet-list">
+            <button type="button" data-open-lead><b>01</b><span><strong>7 финансовых ошибок семьи</strong><small>Интерактивный чек-лист</small></span><i>↗</i></button>
+            <a href="https://t.me/tuyanafin" target="_blank" rel="noopener noreferrer"><b>02</b><span><strong>Чек-лист начинающего инвестора</strong><small>Получить в Telegram</small></span><i>↗</i></a>
+            <a href="#bot-junior"><b>03</b><span><strong>Как говорить с ребёнком о деньгах</strong><small>Сценарии и финансовые сказки</small></span><i>↗</i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="programs-section" id="programs" aria-labelledby="programs-title">
+      <div class="shell">
+        <div class="programs-heading reveal">
+          <div>
+            <span class="kicker">ОБУЧАЮЩИЕ ПРОГРАММЫ</span>
+            <h2 id="programs-title">От первого порядка в деньгах<br>до собственной стратегии</h2>
+          </div>
+          <p>Два понятных маршрута для тех, кто хочет не просто читать о финансах, а спокойно перейти к действиям.</p>
+        </div>
+
+        <div class="programs-orbit reveal">
+          <img src="programs-orbit-3d.webp" alt="3D-визуал образовательного маршрута: рост знаний, аналитика и AI" loading="lazy">
+          <div class="programs-orbit-copy">
+            <span>AI + ПРАКТИКА</span>
+            <strong>Видеть систему,<br>а не отдельные цифры</strong>
+            <p>Каждая программа выстроена как понятный маршрут: от базы и анализа — к самостоятельным решениям.</p>
+          </div>
+        </div>
+
+        <div class="program-grid">
+          <article class="program-card program-card-dark reveal">
+            <div class="program-topline">
+              <span class="program-duration">7 ДНЕЙ</span>
+              <span class="program-format">Мини-марафон</span>
+            </div>
+            <h3>Финансовая<br>перезагрузка</h3>
+            <p class="program-subtitle">За одну неделю увидеть полную картину своих денег и собрать реалистичный план.</p>
+            <div class="program-meta">
+              <span><strong>15–20 минут</strong> в день</span>
+              <span><strong>7 заданий</strong> без перегруза</span>
+            </div>
+            <ol class="day-list">
+              <li><b>01</b> Финансовая точка А</li>
+              <li><b>02</b> Незаметные утечки</li>
+              <li><b>03</b> Безопасный бюджет</li>
+              <li><b>04</b> Финансовая цель</li>
+              <li><b>05</b> Долги и приоритеты</li>
+              <li><b>06</b> Первые инвестиции</li>
+              <li><b>07</b> План на 90 дней</li>
+            </ol>
+            <div class="program-result">
+              <span>Результат</span>
+              <p>Личная финансовая карта, одна ясная цель и первые шаги без режима жёсткой экономии.</p>
+            </div>
+            <a class="button button-gold program-button" href="https://t.me/TuyanaU" target="_blank" rel="noopener noreferrer">Записаться в Telegram <span>↗</span></a>
+          </article>
+
+          <article class="program-card reveal">
+            <div class="program-topline">
+              <span class="program-duration">4 НЕДЕЛИ</span>
+              <span class="program-format">Практический курс</span>
+            </div>
+            <h3>Инвестиции<br>с нуля</h3>
+            <p class="program-subtitle">Месяц, чтобы разобраться в основах и создать свою первую осознанную стратегию.</p>
+            <div class="course-route">
+              <div><b>Неделя 1</b><span>Финансовая база, цели и резерв</span></div>
+              <div><b>Неделя 2</b><span>Вклады, облигации, фонды и акции</span></div>
+              <div><b>Неделя 3</b><span>Риск, срок и диверсификация</span></div>
+              <div><b>Неделя 4</b><span>Черновик портфеля и личный план</span></div>
+            </div>
+            <div class="program-audience">
+              <span>Подойдёт вам, если</span>
+              <ul>
+                <li>не знаете, с чего безопасно начать;</li>
+                <li>боитесь ошибиться и потерять деньги;</li>
+                <li>хотите понимать решения, а не копировать чужие.</li>
+              </ul>
+            </div>
+            <div class="program-result light-result">
+              <span>Результат</span>
+              <p>Понимание основных инструментов, собственного отношения к риску и пошаговый план дальнейшего обучения.</p>
+            </div>
+            <a class="button button-primary program-button" href="https://t.me/TuyanaU" target="_blank" rel="noopener noreferrer">Узнать о старте <span>↗</span></a>
+          </article>
+        </div>
+
+        <p class="education-note reveal">Программы носят образовательный характер, не являются индивидуальной инвестиционной рекомендацией и не обещают гарантированной доходности.</p>
+      </div>
+    </section>
+
+    <section class="editorial-section" aria-label="Обо мне, социальные сети, блог и новости">
+      <div class="shell">
+        <div class="blog-block" id="blog">
+          <div class="editorial-heading reveal">
+            <div>
+              <span class="kicker">БЛОГ FIN AI MEDIA</span>
+              <h2>О деньгах без шума<br>и сложных слов</h2>
+            </div>
+            <p>Практические материалы о личных финансах, инвестициях и решениях, которые мы принимаем каждый день.</p>
+          </div>
+
+          <div class="article-grid">
+            <article class="article-card article-main reveal">
+              <div class="article-visual visual-buffer" aria-hidden="true"><span>01</span><i>₽</i></div>
+              <div class="article-content">
+                <span class="article-tag">Личный опыт · 8 минут</span>
+                <h3>Я инвестирую с 2019 года — и не верю в быстрые деньги</h3>
+                <p>Что мне дали семь лет на фондовом рынке и опыт инвестирования в недвижимость — кроме желания перепроверять громкие обещания.</p>
+                <button class="article-open" type="button" data-dialog="article-buffer">Читать материал <span>→</span></button>
+              </div>
+            </article>
+            <article class="article-card reveal">
+              <div class="article-visual visual-errors" aria-hidden="true"><span>02</span><i>↗</i></div>
+              <div class="article-content">
+                <span class="article-tag">Инвестиции · 6 минут</span>
+                <h3>Почему я не начинаю разговор с вопроса "Какую акцию купить?"</h3>
+                <p>Выбор инструмента — далеко не первый шаг. До него нужно честно ответить себе на несколько более важных вопросов.</p>
+                <button class="article-open" type="button" data-dialog="article-errors">Читать материал <span>→</span></button>
+              </div>
+            </article>
+            <article class="article-card reveal">
+              <div class="article-visual visual-ai" aria-hidden="true"><span>03</span><i>✦</i></div>
+              <div class="article-content">
+                <span class="article-tag">AI и финансы · 6 минут</span>
+                <h3>Где AI помогает инвестору, а где ему нельзя верить на слово</h3>
+                <p>AI умеет читать отчётность и объяснять цифры, но не видит будущее. Рассказываю, какую работу ему можно доверить.</p>
+                <button class="article-open" type="button" data-dialog="article-ai">Читать материал <span>→</span></button>
+              </div>
+            </article>
+            <article class="article-card reveal">
+              <div class="article-visual visual-law" aria-hidden="true"><span>04</span><i>₽</i></div>
+              <div class="article-content"><span class="article-tag">Новые правила · 7 минут</span><h3>Цифровой рубль входит в обычные платежи: что изменится для покупателей</h3><p>Кому уже должны дать возможность принимать цифровые рубли и почему это не отменяет наличные и банковские карты.</p><button class="article-open" type="button" data-dialog="article-digital-ruble">Читать разбор <span>→</span></button></div>
+            </article>
+            <article class="article-card reveal">
+              <div class="article-visual visual-law" aria-hidden="true"><span>05</span><i>▦</i></div>
+              <div class="article-content"><span class="article-tag">Закон · 8 минут</span><h3>Маркетплейсы по новым правилам: что должно стать понятнее для покупателя</h3><p>С 1 октября 2026 года начинает действовать закон о платформенной экономике. Разбираем, кого он касается.</p><button class="article-open" type="button" data-dialog="article-platforms">Читать разбор <span>→</span></button></div>
+            </article>
+            <article class="article-card reveal">
+              <div class="article-visual visual-law" aria-hidden="true"><span>06</span><i>◎</i></div>
+              <div class="article-content"><span class="article-tag">Семьи · эксперимент</span><h3>Поступления на счета и единое пособие: кого затронула новая проверка</h3><p>Почему перевод на карту не всегда равен доходу и в каких регионах проходит эксперимент.</p><button class="article-open" type="button" data-dialog="article-benefits">Читать разбор <span>→</span></button></div>
+            </article>
+            <article class="article-card reveal">
+              <div class="article-visual visual-law" aria-hidden="true"><span>07</span><i>%</i></div>
+              <div class="article-content"><span class="article-tag">Налоги · бизнес</span><h3>НДС на УСН в 2026 году: почему изменения могут почувствовать покупатели</h3><p>Что означает новый порог для малого бизнеса и почему рост налога не всегда автоматически равен росту цены.</p><button class="article-open" type="button" data-dialog="article-vat">Читать разбор <span>→</span></button></div>
+            </article>
+          </div>
+        </div>
+
+        <section class="media-teaser-section" id="media" aria-labelledby="media-teaser-title">
+          <div class="media-teaser-heading reveal">
+            <div>
+              <span class="kicker">БЛОГ FIN AI MEDIA</span>
+              <h2 id="media-teaser-title">Новости и статьи<br>о деньгах без шума</h2>
+            </div>
+            <p>Три коротких материала — чтобы понять, что происходит сейчас. В полном разделе — 10 новостей, 10 статей и источники, на которые можно опереться.</p>
+          </div>
+          <div class="media-teaser-grid">
+            <article class="media-teaser-card reveal">
+              <img src="news-rate.webp" alt="3D-циферблат ключевой ставки" loading="lazy">
+              <div><span>НОВОСТЬ · 11 СЕНТЯБРЯ</span><h3>Ставку оставили на уровне 14%: что это меняет для кредита и вклада</h3><a href="media.html#news-rate">Читать разбор <b>↗</b></a></div>
+            </article>
+            <article class="media-teaser-card reveal">
+              <img src="news-deposits.webp" alt="3D-стеклянный сейф и сбережения" loading="lazy">
+              <div><span>НОВОСТЬ · 14 СЕНТЯБРЯ</span><h3>Вклады всё ещё дают заметный процент, но цифра в рекламе не рассказывает всё</h3><a href="media.html#news-deposits">Читать разбор <b>↗</b></a></div>
+            </article>
+            <article class="media-teaser-card reveal">
+              <img src="news-family.webp" alt="3D-семья, монета и документ" loading="lazy">
+              <div><span>ВАЖНЫЙ СРОК · 1 ОКТЯБРЯ</span><h3>Ежегодная семейная выплата: кому важно проверить право на неё сейчас</h3><a href="media.html#news-family">Читать разбор <b>↗</b></a></div>
+            </article>
+          </div>
+          <a class="button button-primary media-teaser-button reveal" href="media.html">Открыть весь блог <span>↗</span></a>
+        </section>
+
+        <div class="about-block" id="about">
+          <div class="founder-card reveal">
+            <div class="founder-portrait" aria-label="Фотографии Туяны, автора Fin AI Media">
+              <div class="founder-photo-stage tilt-3d">
+                <img class="founder-photo-main" src="tuyana-portrait.webp" alt="Туяна, автор проекта Fin AI Media" loading="lazy">
+                <img class="founder-photo-accent founder-photo-red" src="tuyana-red.webp" alt="Туяна на деловой встрече" loading="lazy">
+                <img class="founder-photo-accent founder-photo-blue" src="tuyana-blue.webp" alt="Туяна во время путешествия" loading="lazy">
+                <span class="founder-photo-glow" aria-hidden="true"></span>
+              </div>
+              <i>FIN AI MEDIA</i>
+            </div>
+            <div class="founder-copy">
+              <span class="kicker">ОБ АВТОРЕ ПРОЕКТА</span>
+              <h2>Меня зовут Туяна.<br>Я создала Fin AI Media.</h2>
+              <p class="founder-lead">Я пришла в этот проект на стыке журналистики, педагогики, управления digital-проектами и собственного опыта инвестирования с 2019 года.</p>
+              <p>За семь лет я получила практический опыт на фондовом рынке и в недвижимости. Не как сторонний наблюдатель, а как человек, который сам изучает инструменты, принимает решения и понимает, насколько новичку не хватает спокойного объяснения без сигналов и обещаний лёгкой доходности.</p>
+              <p>Восемь лет работы журналистом научили меня находить главное и объяснять сложное человеческим языком. Последние годы я управляю цифровыми, маркетинговыми и контентными проектами, внедряю AI-инструменты и собираю работающие системы из разрозненных задач.</p>
+              <p>Fin AI Media — это пространство без обещаний быстрых денег и навязанных банковских продуктов. Здесь технологии помогают человеку лучше понять собственную ситуацию и принять более осознанное решение.</p>
+              <div class="founder-values">
+                <div><strong>7 лет</strong><span>в инвестициях</span></div>
+                <div><strong>8 лет</strong><span>в журналистике</span></div>
+                <div><strong>3+ года</strong><span>в digital-проектах</span></div>
+              </div>
+              <div class="education-list">
+                <span>Образование и подготовка</span>
+                <div><i>01</i><p><strong>Журналистское образование</strong>Работа с информацией, фактами и сложными темами.</p></div>
+                <div><i>02</i><p><strong>Педагогическое образование</strong>Понимание того, как объяснять и выстраивать обучение.</p></div>
+                <div><i>03</i><p><strong>Повышение квалификации РАНХиГС</strong>"Основы биржевой торговли и инвестирования".</p></div>
+              </div>
+              <a class="button button-primary" href="https://t.me/TuyanaU" target="_blank" rel="noopener noreferrer">Написать Туяне в Telegram <span>↗</span></a>
+            </div>
+          </div>
+        </div>
+
+        <section class="testimonials-block" aria-labelledby="testimonials-title">
+          <div class="testimonials-heading reveal"><span class="kicker">ДОВЕРИЕ И РЕЗУЛЬТАТЫ</span><h2 id="testimonials-title">Что говорят участники</h2><p>Здесь будут только реальные отзывы после тестирования помощников и материалов.</p></div>
+          <div class="beta-card reveal"><div><span>НАБОР В ПЕРВУЮ ГРУППУ</span><h3>Станьте тестировщиком FinAI</h3><p>Попробуйте помощника бесплатно, поделитесь впечатлениями и помогите сделать продукт полезнее для женщин и семей.</p></div><a class="button button-primary" href="https://t.me/TuyanaU" target="_blank" rel="noopener noreferrer">Стать тестировщиком <span>↗</span></a></div>
+        </section>
+
+        <section class="partners-block reveal" aria-labelledby="partners-title">
+          <div><span class="kicker">ДЛЯ СМИ, БРЕНДОВ И ОБРАЗОВАТЕЛЬНЫХ ПРОЕКТОВ</span><h2 id="partners-title">Партнёрство с понятным содержанием</h2><p>Fin AI Media открыт к интервью, подкастам, выступлениям, совместным исследованиям и образовательным форматам о финансах и AI.</p></div>
+          <ul><li>Комментарии и экспертные разборы</li><li>Выступления и дискуссии</li><li>Спецпроекты и исследования</li><li>Образовательные программы</li></ul>
+          <a class="button button-primary" href="https://t.me/TuyanaU" target="_blank" rel="noopener noreferrer">Предложить сотрудничество <span>↗</span></a>
+        </section>
+
+        <section class="socials-block" id="socials" aria-labelledby="socials-title">
+          <div class="socials-heading reveal">
+            <div>
+              <span class="kicker">ТУЯНА В СОЦСЕТЯХ</span>
+              <h2 id="socials-title">Читайте, смотрите<br>и оставайтесь на связи</h2>
+            </div>
+            <p>Пишу о деньгах, инвестициях, AI и жизни без финансового шума. Выберите площадку, где вам удобнее следить за новыми материалами.</p>
+          </div>
+          <div class="socials-grid">
+            <a class="social-3d-card social-instagram reveal" href="https://www.instagram.com/tuyanafin/" target="_blank" rel="noopener noreferrer" aria-label="Открыть Instagram Туяны">
+              <span class="social-3d-mark" aria-hidden="true"><svg viewBox="0 0 32 32"><rect x="5" y="5" width="22" height="22" rx="7"></rect><circle cx="16" cy="16" r="5"></circle><circle cx="23" cy="9" r="1.4" class="social-dot"></circle></svg></span>
+              <span class="social-card-copy"><small>Instagram</small><strong>@tuyanafin</strong></span><span class="social-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="social-3d-card social-max reveal" href="https://max.ru/channel_tuyanafin" target="_blank" rel="noopener noreferrer" aria-label="Открыть канал Туяны в MAX">
+              <span class="social-3d-mark" aria-hidden="true"><span class="max-mark">M</span></span>
+              <span class="social-card-copy"><small>MAX</small><strong>channel_tuyanafin</strong></span><span class="social-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="social-3d-card social-telegram reveal" href="https://t.me/tuyanafin" target="_blank" rel="noopener noreferrer" aria-label="Открыть Telegram-канал Туяны">
+              <span class="social-3d-mark" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M26.8 6.2 22.4 26c-.3 1.4-1.1 1.7-2.2 1.1l-6.2-4.6-3 2.9c-.3.3-.6.6-1.2.6l.4-6.4L21.8 9.1c.5-.4-.1-.7-.7-.3L7.4 17.5 1.5 15.7c-1.3-.4-1.3-1.3.3-1.9L25 4.7c1.1-.4 2.1.3 1.8 1.5Z"></path></svg></span>
+              <span class="social-card-copy"><small>Telegram</small><strong>@tuyanafin</strong></span><span class="social-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="social-3d-card social-vk reveal" href="https://vk.com/tuyanafin" target="_blank" rel="noopener noreferrer" aria-label="Открыть ВКонтакте Туяны">
+              <span class="social-3d-mark" aria-hidden="true"><span class="vk-mark">vk</span></span>
+              <span class="social-card-copy"><small>ВКонтакте</small><strong>tuyanafin</strong></span><span class="social-arrow" aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </section>
+
+        <section class="subscribe-block reveal" aria-labelledby="subscribe-title">
+          <div><span class="kicker">НОВЫЕ РАЗБОРЫ БЕЗ ИНФОРМАЦИОННОГО ШУМА</span><h2 id="subscribe-title">Получайте главное там, где вам удобно</h2><p>Новые законы, решения Банка России, семейные финансы и практическое применение AI - с объяснением последствий для обычного человека.</p></div>
+          <div><a class="button button-primary" href="https://t.me/tuyanafin" target="_blank" rel="noopener noreferrer">Подписаться в Telegram <span>↗</span></a><a class="button button-primary" href="https://max.ru/channel_tuyanafin" target="_blank" rel="noopener noreferrer">Читать в MAX <span>↗</span></a></div>
+        </section>
+
+        <div class="faq-block reveal">
+          <div class="faq-heading">
+            <span class="kicker">ЧАСТЫЕ ВОПРОСЫ</span>
+            <h2>Перед началом</h2>
+          </div>
+          <div class="faq-list">
+            <details>
+              <summary>Нужны ли знания в финансах и инвестициях?<span>+</span></summary>
+              <p>Нет. Марафон и курс задуманы для начинающих: все понятия разбираются последовательно и простым языком.</p>
+            </details>
+            <details>
+              <summary>Нужно ли сразу вкладывать деньги?<span>+</span></summary>
+              <p>Нет. Сначала вы изучаете основы, определяете цель и допустимый риск. Решение о вложениях всегда остаётся за вами.</p>
+            </details>
+            <details>
+              <summary>Будут ли конкретные советы, что купить?<span>+</span></summary>
+              <p>Курс не строится на сигналах и обещаниях доходности. Его задача — научить понимать инструменты и оценивать решения самостоятельно.</p>
+            </details>
+            <details>
+              <summary>В каком формате проходит обучение?<span>+</span></summary>
+              <p>Короткие уроки, практические задания, шаблоны и поддержка в цифровом формате. Точные даты и условия первого потока будут опубликованы перед стартом.</p>
+            </details>
+            <details><summary>Заменяет ли AI финансового консультанта?<span>+</span></summary><p>Нет. Он помогает структурировать информацию, увидеть риски и подготовить вопросы. Решения о деньгах и инвестициях всегда остаются за человеком.</p></details>
+            <details><summary>Нужно ли сообщать точные суммы и личные данные?<span>+</span></summary><p>Нет. Для большинства сценариев можно использовать округлённые суммы. Не отправляйте пароли, коды, реквизиты карт и документы, если сервис прямо и безопасно их не запрашивает.</p></details>
+            <details><summary>Гарантирует ли помощник доходность?<span>+</span></summary><p>Нет. FinAI не обещает прибыль и не угадывает рынок. Его задача - помочь понять данные, ограничения и риски.</p></details>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="consultation-section" aria-labelledby="consultation-title">
+      <div class="shell consultation-card reveal">
+        <div class="consultation-mark">T</div>
+        <div><span class="kicker">ЛИЧНЫЙ РАЗБОР</span><h2 id="consultation-title">Нужен не бот, а разбор именно вашей ситуации?</h2><p>Разберем семейный бюджет, финансовые цели или первые шаги в инвестициях и составим понятный план действий.</p></div>
+        <a class="button button-primary" href="https://t.me/TuyanaU" target="_blank" rel="noopener noreferrer">Записаться на разбор <span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="chooser-section" id="chooser" aria-labelledby="chooser-title">
+      <div class="shell chooser-shell">
+        <div class="chooser-intro reveal">
+          <span class="kicker light">ПЕРСОНАЛЬНЫЙ ПОДБОР</span>
+          <h2 id="chooser-title">Какая задача важна<br>для вас сейчас?</h2>
+          <p>Можно выбрать несколько вариантов. Мы найдём помощника, который лучше всего подходит под ваш запрос.</p>
+          <div class="privacy-note">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 10V7a5 5 0 0 1 10 0v3M5 10h14v11H5z"/></svg>
+            <span><strong>Приватно по умолчанию</strong>Ваш выбор не сохраняется и остаётся только на этой странице.</span>
+          </div>
+        </div>
+
+        <div class="chooser-panel reveal">
+          <form id="recommendation-form">
+            <fieldset>
+              <legend>Выберите одну или несколько задач</legend>
+              <div class="task-grid">
+                <label class="task-option">
+                  <input type="checkbox" name="task" value="budget">
+                  <span class="checkmark">✓</span>
+                  <span class="task-icon">₽</span>
+                  <span>Навести порядок<br>в личных финансах</span>
+                </label>
+                <label class="task-option">
+                  <input type="checkbox" name="task" value="junior">
+                  <span class="checkmark">✓</span><span class="task-icon">☆</span><span>Научить ребёнка<br>обращаться с деньгами</span>
+                </label>
+                <label class="task-option">
+                  <input type="checkbox" name="task" value="invest">
+                  <span class="checkmark">✓</span>
+                  <span class="task-icon">↗</span>
+                  <span>Научиться<br>анализировать акции</span>
+                </label>
+                <label class="task-option">
+                  <input type="checkbox" name="task" value="save">
+                  <span class="checkmark">✓</span>
+                  <span class="task-icon">◎</span>
+                  <span>Накопить<br>на большую цель</span>
+                </label>
+                <label class="task-option">
+                  <input type="checkbox" name="task" value="debt">
+                  <span class="checkmark">✓</span>
+                  <span class="task-icon">−</span>
+                  <span>Разобраться<br>с кредитами</span>
+                </label>
+                <label class="task-option">
+                  <input type="checkbox" name="task" value="career">
+                  <span class="checkmark">✓</span>
+                  <span class="task-icon">◇</span>
+                  <span>Освоить профессию<br>или закрыть пробелы</span>
+                </label>
+                <label class="task-option">
+                  <input type="checkbox" name="task" value="business">
+                  <span class="checkmark">✓</span>
+                  <span class="task-icon">▥</span>
+                  <span>Разобрать финансы<br>и маркетинг бизнеса</span>
+                </label>
+              </div>
+            </fieldset>
+            <button class="button button-gold" type="submit" disabled>
+              Получить рекомендацию
+              <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h12m-5-5 5 5-5 5"/></svg>
+            </button>
+            <p class="form-hint" aria-live="polite">Отметьте хотя бы одну задачу</p>
+          </form>
+
+          <div class="recommendation" id="recommendation" hidden tabindex="-1">
+            <div class="result-label"><span>✦</span> ВАША РЕКОМЕНДАЦИЯ</div>
+            <div class="result-bot-icon"><img id="result-icon" src="bot-invest-3d.webp" alt=""></div>
+            <h3 id="result-title">FinAI Invest</h3>
+            <p class="result-role" id="result-role">AI-анализатор акций</p>
+            <p class="result-copy" id="result-copy"></p>
+            <div class="result-steps">
+              <span>Что вы получите:</span>
+              <ul id="result-list"></ul>
+            </div>
+            <a class="button button-gold" id="result-link" href="invest.html">Посмотреть помощника</a>
+            <button class="reset-button" id="reset-button" type="button">Изменить выбор</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="shell final-cta-inner reveal"><span>НЕ ЗНАЕТЕ, С ЧЕГО НАЧАТЬ?</span><h2>Выберите одну задачу.<br>Первый шаг займет несколько минут.</h2><div><a class="button button-primary" href="#chooser">Подобрать AI-помощника <span>↗</span></a><button class="final-text-button" type="button" data-open-lead>Сначала получить бесплатный чек-лист</button></div></div>
+
+      <footer class="shell site-footer">
+        <div class="footer-main">
+          <div class="footer-brand-block">
+            <a class="brand footer-brand" href="#top">
+              <span class="brand-mark brand-mark-3d" aria-hidden="true">
+                <img src="fin-ai-logo-3d-v2.webp" alt="">
+              </span>
+              <span class="brand-name">FIN <i>AI</i> MEDIA</span>
+            </a>
+            <p>Технологии и обучение, которые помогают принимать финансовые и карьерные решения увереннее.</p>
+          </div>
+
+          <div class="footer-legal">
+            <span>АВТОР ПРОЕКТА</span>
+            <strong>Урбагаева Туяна Амгалановна</strong>
+            <p>ИНН 170108193980</p>
+          </div>
+
+          <div class="footer-socials">
+            <span>СОЦИАЛЬНЫЕ СЕТИ</span>
+            <div class="social-links">
+              <a href="https://t.me/tuyanafin" target="_blank" rel="noopener noreferrer"><b>Telegram</b><i>↗</i></a>
+              <a href="https://www.instagram.com/tuyanafin/" target="_blank" rel="noopener noreferrer"><b>Instagram</b><i>↗</i></a>
+              <a href="https://vk.com/tuyanafin" target="_blank" rel="noopener noreferrer"><b>ВКонтакте</b><i>↗</i></a>
+              <a href="https://max.ru/channel_tuyanafin" target="_blank" rel="noopener noreferrer"><b>MAX</b><i>↗</i></a>
+              <a href="https://tuyanafin.tilda.ws/tuyanafin" target="_blank" rel="noopener noreferrer"><b>Личный сайт</b><i>↗</i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <span>© 2026 Fin AI Media</span>
+          <div class="footer-policy-row">
+            <p>Информация на сайте носит образовательный характер и не является индивидуальной инвестиционной рекомендацией.</p>
+            <button class="privacy-link" type="button" data-open-privacy>Политика конфиденциальности</button>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </main>
+
+  <dialog class="lead-dialog" id="lead-dialog" aria-labelledby="lead-dialog-title">
+    <button class="lead-dialog-close" type="button" aria-label="Закрыть">×</button>
+    <div class="lead-dialog-cover"><span>FINAIMEDIA • БЕСПЛАТНЫЙ ЧЕК-ЛИСТ</span><h2 id="lead-dialog-title">7 финансовых ошибок, из-за которых семье не удается накопить</h2><p>Отметьте пункты, которые узнали у себя. Не пытайтесь исправить всё за один день: выберите только один шаг на ближайшую неделю.</p></div>
+    <ol class="lead-checklist">
+      <li><label><input type="checkbox"><span></span><div><strong>Нет общей картины расходов</strong><p>Мы помним крупные платежи, но недооцениваем десятки небольших покупок.</p></div></label></li>
+      <li><label><input type="checkbox"><span></span><div><strong>Накопления идут по остаточному принципу</strong><p>Если откладывать только то, что осталось в конце месяца, чаще всего не остается ничего.</p></div></label></li>
+      <li><label><input type="checkbox"><span></span><div><strong>Цель звучит слишком абстрактно</strong><p>Формулировка "хочу накопить" не дает срока, суммы и понятного ежемесячного шага.</p></div></label></li>
+      <li><label><input type="checkbox"><span></span><div><strong>Все расходы делятся только на нужные и ненужные</strong><p>Жесткие запреты быстро утомляют. Работает бюджет, в котором есть место жизни и радости.</p></div></label></li>
+      <li><label><input type="checkbox"><span></span><div><strong>Нет отдельного резерва на нерегулярные траты</strong><p>Отпуск, лечение и ремонт предсказуемы, даже если случаются не каждый месяц.</p></div></label></li>
+      <li><label><input type="checkbox"><span></span><div><strong>Долги погашаются без приоритета</strong><p>Дополнительные деньги распределяются хаотично, а самый дорогой кредит продолжает забирать проценты.</p></div></label></li>
+      <li><label><input type="checkbox"><span></span><div><strong>Финансовые решения не обсуждаются в семье</strong><p>Без общей цели бюджет превращается в контроль, а не в инструмент спокойствия.</p></div></label></li>
+    </ol>
+    <div class="lead-dialog-result"><strong>Ваш первый шаг</strong><p>Выберите один отмеченный пункт и уделите ему 20 минут на этой неделе.</p></div>
+    <div class="lead-dialog-actions"><button class="button button-primary" type="button" data-print-lead>Сохранить или распечатать</button><a class="text-link" href="https://t.me/tuyanafin" target="_blank" rel="noopener noreferrer">Больше материалов в Telegram ↗</a></div>
+  </dialog>
+
+  <dialog class="article-dialog" id="article-buffer">
+    <button class="dialog-close" type="button" aria-label="Закрыть">×</button>
+    <span class="article-tag">Личный опыт · 8 минут</span>
+    <h2>Я инвестирую с 2019 года — и не верю в быстрые деньги</h2>
+    <p>Я начала инвестировать в 2019 году. Не потому, что знала секретную формулу или умела угадывать рынок. Наоборот — хотелось самой понять, как работают деньги и можно ли принимать решения без ощущения, что вокруг говорят на чужом языке.</p>
+    <p>За эти семь лет в моей жизни был фондовый рынок и инвестиции в недвижимость. И чем больше опыта появлялось, тем меньше хотелось верить красивым фразам вроде "эта акция точно вырастет" или "главное — просто начать".</p>
+    <p>Потому что просто начать мало. Важно понимать, зачем вы покупаете актив, на какой срок готовы вложить деньги, что будете делать при падении цены и не понадобятся ли эти средства раньше.</p>
+    <h3>Что я поняла за это время</h3>
+    <ul><li>Универсально лучшего инструмента не существует — есть подходящий или неподходящий под конкретную задачу.</li><li>Доходность без разговора о риске ничего не объясняет.</li><li>Чужая уверенность не заменяет собственное понимание.</li><li>Инвестору полезнее уметь читать логику цифр, чем собирать бесконечные советы.</li></ul>
+    <p>Именно поэтому я создаю Fin AI Media. Мне хочется, чтобы человек мог задать самый простой вопрос и получить не насмешку, сигнал или рекламу банковского продукта, а нормальное человеческое объяснение: что означают показатели, где риски и чего мы на самом деле не можем знать заранее.</p>
+  </dialog>
+
+  <dialog class="article-dialog" id="article-errors">
+    <button class="dialog-close" type="button" aria-label="Закрыть">×</button>
+    <span class="article-tag">Инвестиции · 6 минут</span>
+    <h2>Почему я не начинаю разговор с вопроса "Какую акцию купить?"</h2>
+    <p>Когда человек только приходит в инвестиции, ему хочется конкретики: назовите компанию, цену входа и скажите, сколько я заработаю. Я понимаю это желание. Кажется, что один точный ответ сразу уберёт тревогу.</p>
+    <p>Но я бы начала с других вопросов: на какой срок вы вкладываете деньги, какая у вас цель, есть ли резерв и что вы будете чувствовать, если цена временно снизится на 20–30 процентов?</p>
+    <p>Одна и та же акция может выглядеть разумно для человека с длинным горизонтом и совершенно не подходить тому, кому деньги понадобятся через год. Поэтому хороший анализ — это не ярлык "покупать" или "не покупать".</p>
+    <h3>На что я смотрю вместо громкого совета</h3>
+    <ul><li>Как компания зарабатывает и растёт ли её выручка.</li><li>Есть ли у бизнеса долг и способен ли он его обслуживать.</li><li>Что происходит с прибылью и денежным потоком.</li><li>Какие риски есть у отрасли и самого российского рынка.</li><li>Соответствует ли идея вашему сроку и отношению к риску.</li></ul>
+    <p>Вот этому и должен помогать FinAI Invest: не решать за человека, а переводить отчётность с финансового языка на обычный.</p>
+  </dialog>
+
+  <dialog class="article-dialog" id="article-ai">
+    <button class="dialog-close" type="button" aria-label="Закрыть">×</button>
+    <span class="article-tag">AI и финансы · 6 минут</span>
+    <h2>Где AI помогает инвестору, а где ему нельзя верить на слово</h2>
+    <p>Я люблю AI за скорость. Он может за минуты собрать ключевые показатели компании, сравнить несколько периодов, найти необычное изменение в отчётности и объяснить термин без тяжёлого финансового словаря.</p>
+    <p>Но есть опасная иллюзия: если ответ звучит уверенно и красиво, значит он правильный. Это не так. AI может не увидеть свежую новость, перепутать цифры или сделать слишком смелый вывод из неполных данных.</p>
+    <h3>Что я бы ему доверила</h3>
+    <ul><li>Собрать и структурировать показатели из отчёта.</li><li>Объяснить простыми словами, что означает коэффициент.</li><li>Сравнить динамику компании за несколько периодов.</li><li>Сформулировать риски и вопросы для дальнейшей проверки.</li></ul>
+    <h3>А что не доверила бы</h3>
+    <p>Решение "покупать или продавать", прогноз точной цены и обещание доходности. AI должен усиливать мышление человека, а не подменять его. Именно таким я вижу Fin AI Media.</p>
+  </dialog>
+
+  <dialog class="article-dialog" id="article-digital-ruble">
+    <button class="dialog-close" type="button" aria-label="Закрыть">×</button>
+    <span class="article-tag">НОВЫЕ ПРАВИЛА · ОКТЯБРЬ 2026</span>
+    <h2>Цифровой рубль входит в обычные платежи: что изменится для покупателей</h2>
+    <p>Цифровой рубль - третья форма российской валюты наряду с наличными и привычными безналичными деньгами. Его выпускает Банк России, а один цифровой рубль равен одному обычному рублю.</p>
+    <h3>Что уже изменилось</h3>
+    <p>С 1 сентября 2026 года обеспечить приём цифровых рублей должны отдельные крупные продавцы с выручкой свыше 120 млн рублей, если одновременно выполнены установленные законом банковские условия. Для небольших торговых точек предусмотрены исключения.</p>
+    <h3>Как это отразится на обычном человеке</h3>
+    <ul><li>Появится ещё один способ оплаты, но наличные и банковские карты не отменяются.</li><li>Открывать счёт цифрового рубля только ради покупки не требуется: выбор остаётся за покупателем.</li><li>Не нужно покупать специальное устройство. Доступ к цифровому кошельку предоставляет банк-участник платформы.</li><li>Следует остерегаться мошенников, которые предлагают "обязательную активацию" цифрового рубля по ссылке или телефону.</li></ul>
+    <p><strong>Главный вывод:</strong> цифровой рубль расширяет способы оплаты, но не превращает все ваши деньги в новую форму автоматически.</p>
+    <p class="source-note">Официальный источник: <a href="https://www.cbr.ru/PSystem/dr/" target="_blank" rel="noopener noreferrer">Банк России - цифровой рубль</a>.</p>
+  </dialog>
+
+  <dialog class="article-dialog" id="article-platforms">
+    <button class="dialog-close" type="button" aria-label="Закрыть">×</button>
+    <span class="article-tag">ЗАКОН · С 1 ОКТЯБРЯ 2026</span>
+    <h2>Маркетплейсы по новым правилам: что должно стать понятнее для покупателя</h2>
+    <p>С 1 октября 2026 года начинает действовать федеральный закон о платформенной экономике. Он вводит единые правила для крупных посреднических цифровых платформ, через которые размещают предложения, заключают сделки и проводят оплату.</p>
+    <h3>Зачем появился новый закон</h3>
+    <p>Маркетплейс давно перестал быть просто электронной витриной. Он влияет на выдачу товаров, условия работы продавцов, оплату, скидки и возвраты. Новые правила должны сделать обязанности платформ, продавцов и владельцев пунктов выдачи более определёнными.</p>
+    <h3>Что это значит для людей</h3>
+    <ul><li>Крупнейшие платформы будут включаться в специальный реестр.</li><li>Покупателю должно быть проще понять, кто именно продаёт товар и кто отвечает за исполнение сделки.</li><li>У платформ появится больше формализованных обязанностей по работе с продавцами и информацией о товарах.</li><li>Изменения не означают, что любой спор решится автоматически: чеки, переписку и сведения о заказе всё равно полезно сохранять.</li></ul>
+    <p><strong>Главный вывод:</strong> закон создаёт более понятную рамку для рынка, но реальный эффект будет зависеть от того, как платформы обновят договоры, интерфейсы и процедуры рассмотрения жалоб.</p>
+    <p class="source-note">Официальный источник: <a href="https://government.ru/docs/57713/" target="_blank" rel="noopener noreferrer">Правительство России - правила для посреднических цифровых платформ</a>.</p>
+  </dialog>
+
+  <dialog class="article-dialog" id="article-benefits">
+    <button class="dialog-close" type="button" aria-label="Закрыть">×</button>
+    <span class="article-tag">СЕМЬИ · ЭКСПЕРИМЕНТ 2026</span>
+    <h2>Поступления на счета и единое пособие: кого затронула новая проверка</h2>
+    <p>В 2026 году проводится эксперимент по учёту поступлений на банковские счета при определении права на единое пособие. Он действует не по всей стране, а в Московской области, ХМАО - Югре и ЯНАО.</p>
+    <h3>Что именно сравнивают</h3>
+    <p>По утверждённым правилам анализируется совокупная сумма поступлений на счета членов семьи за расчётный период и сопоставляется с совокупным доходом семьи. Само наличие перевода ещё не доказывает, что семья скрыла доход: важны источник денег и правила их учёта.</p>
+    <h3>Как подготовиться семье из региона эксперимента</h3>
+    <ul><li>Не паниковать из-за переводов между собственными счетами.</li><li>Сохранять документы по возвратам долгов, продаже имущества и другим крупным поступлениям.</li><li>Проверять уведомления Социального фонда и отвечать на запросы документами.</li><li>При отказе запрашивать конкретную причину и порядок обжалования.</li></ul>
+    <p><strong>Главный вывод:</strong> это региональный эксперимент, а не автоматическая проверка всех семей России. Его цель - оценить, помогает ли анализ поступлений точнее определять нуждаемость.</p>
+    <p class="source-note">Официальный источник: <a href="https://government.ru/docs/all/163084/" target="_blank" rel="noopener noreferrer">Постановление Правительства РФ от 29.12.2025 № 2207</a>.</p>
+  </dialog>
+
+  <dialog class="article-dialog" id="article-vat">
+    <button class="dialog-close" type="button" aria-label="Закрыть">×</button>
+    <span class="article-tag">НАЛОГИ · 2026</span>
+    <h2>НДС на УСН в 2026 году: почему изменения могут почувствовать покупатели</h2>
+    <p>С 2026 года правила НДС для бизнеса на упрощённой системе изменились. Если доход за 2025 год не превысил 20 млн рублей, действует обязательное освобождение. При превышении порога бизнес начинает исполнять обязанности плательщика НДС и выбирает предусмотренный законом режим.</p>
+    <h3>Какие варианты предусмотрены</h3>
+    <p>Предприниматель может применять общую ставку 22% с правом на вычеты либо специальные ставки 5% или 7% без вычета входного НДС - в зависимости от условий и размера дохода.</p>
+    <h3>Как это может отразиться на покупателе</h3>
+    <ul><li>Часть компаний пересмотрит цены, особенно если расходы и налоговая нагрузка заметно выросли.</li><li>Рост цены не обязан быть равен ставке НДС: всё зависит от маржи, закупок, вычетов и выбранного режима.</li><li>Малый бизнес ниже установленного порога сохраняет освобождение, пока не превысит его в течение года.</li><li>Предпринимателям важно считать несколько сценариев, а покупателям - сравнивать итоговую цену, а не только объяснение продавца "налоги выросли".</li></ul>
+    <p><strong>Главный вывод:</strong> новые правила влияют прежде всего на расчёты бизнеса, а их вклад в конечную цену у разных компаний будет разным.</p>
+    <p class="source-note">Официальный источник: <a href="https://www.nalog.gov.ru/rn77/taxation/taxes/nds_usn/" target="_blank" rel="noopener noreferrer">ФНС России - НДС при УСН</a>.</p>
+  </dialog>
+
+  <dialog class="privacy-dialog" id="privacy-dialog" aria-labelledby="privacy-title">
+    <button class="dialog-close privacy-close" type="button" aria-label="Закрыть">×</button>
+    <span class="article-tag">РЕДАКЦИЯ ОТ 20 СЕНТЯБРЯ 2026 ГОДА</span>
+    <h2 id="privacy-title">Политика конфиденциальности и использования cookie</h2>
+    <p>Настоящая Политика описывает, какие данные могут обрабатываться при использовании сайта Fin AI Media и как пользователь может управлять ими.</p>
+
+    <h3>1. Оператор</h3>
+    <p>Урбагаева Туяна Амгалановна, ИНН 170108193980. Связаться по вопросам обработки данных можно через Telegram: <a href="https://t.me/TuyanaU" target="_blank" rel="noopener noreferrer">@TuyanaU</a>.</p>
+
+    <h3>2. Какие данные обрабатываются</h3>
+    <p>В текущей версии сайта отсутствуют формы регистрации, оплаты и отправки заявок. Сайт самостоятельно не запрашивает имя, телефон, email, паспортные или платёжные данные.</p>
+    <p>Для загрузки страницы и обеспечения безопасности хостинг-провайдер может технически обрабатывать IP-адрес, сведения о браузере и устройстве, дату и время обращения, запрошенные страницы и служебные журналы.</p>
+
+    <h3>3. Cookie и локальное хранилище</h3>
+    <p>Сайт использует локальное и сессионное хранилище браузера, чтобы запомнить выбор в уведомлении о cookie и состояние контактного виджета. Рекламные и аналитические cookie в текущей версии сайта не используются. Пользователь может удалить сохранённые данные в настройках браузера.</p>
+
+    <h3>4. Цели обработки</h3>
+    <ul><li>отображение и стабильная работа сайта;</li><li>обеспечение безопасности и предотвращение технических злоупотреблений;</li><li>сохранение выбранных пользователем настроек интерфейса;</li><li>ответ на обращение, если пользователь самостоятельно переходит во внешний мессенджер.</li></ul>
+
+    <h3>5. Внешние сервисы</h3>
+    <p>На сайте размещены ссылки на Telegram, MAX, ВКонтакте, Instagram и внешний сайт на Tilda. После перехода обработка данных осуществляется соответствующим сервисом по его собственным правилам.</p>
+
+    <h3>6. Сроки хранения и права пользователя</h3>
+    <p>Настройки интерфейса хранятся в браузере до их удаления пользователем. Срок хранения технических журналов определяется хостинг-провайдером. Пользователь вправе запросить сведения об обработке, уточнение или удаление данных, обратившись к оператору через Telegram.</p>
+
+    <h3>7. Изменение Политики</h3>
+    <p>При подключении форм, аналитики, оплаты, личного кабинета или новых внешних сервисов Политика будет обновлена до начала соответствующей обработки данных.</p>
+  </dialog>
+
+  <div class="cookie-banner" id="cookie-banner" role="dialog" aria-label="Уведомление об использовании cookie" hidden>
+    <div class="cookie-icon" aria-hidden="true">◌</div>
+    <div class="cookie-copy">
+      <strong>Настройки конфиденциальности</strong>
+      <p>Сайт использует только необходимые технические данные и локальное хранилище. Рекламных cookie сейчас нет.</p>
+      <button type="button" data-open-privacy>Подробнее о политике</button>
+    </div>
+    <div class="cookie-actions">
+      <button class="cookie-secondary" type="button" data-cookie-choice="necessary">Только необходимые</button>
+      <button class="cookie-primary" type="button" data-cookie-choice="accepted">Принять</button>
+    </div>
+  </div>
+
+  <div class="contact-widget" id="contact-widget">
+    <div class="contact-menu" id="contact-menu" hidden>
+      <div class="contact-title"><span>Есть вопрос?</span><strong>Напишите мне</strong></div>
+      <a href="https://t.me/TuyanaU" target="_blank" rel="noopener noreferrer"><i>TG</i><span><b>Telegram</b>Быстрый ответ в личном чате</span><em>↗</em></a>
+      <a href="https://max.ru/channel_tuyanafin" target="_blank" rel="noopener noreferrer"><i>M</i><span><b>MAX</b>Новости и связь в MAX</span><em>↗</em></a>
+    </div>
+    <button class="contact-toggle" type="button" aria-expanded="false" aria-controls="contact-menu">
+      <span class="contact-pulse" aria-hidden="true"></span>
+      <span>Написать</span>
+      <b aria-hidden="true">↗</b>
+    </button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
